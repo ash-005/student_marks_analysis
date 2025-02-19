@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the model
-model_path = 'D:/student_models/student_marks_model.pkl'  # Correct path separator
+model_path = 'student_marks_model.pkl'  # Correct path separator
 with open(model_path, 'rb') as f:  # Use 'rb' for loading the pickle file
     model = pickle.load(f)
 
